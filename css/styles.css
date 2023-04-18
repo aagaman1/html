@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -30,10 +31,10 @@ nav ul li {
 }
 
 
-
 .active {
   text-decoration-color: whitesmoke;
   text-decoration: underline;
+
 }
 
 .box {
@@ -53,6 +54,15 @@ nav ul li {
   border: 1px solid wheat;
   width: 375px;
   padding: 20px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: black;
+}
+
+nav li:not(:first-child) {
+  margin-left: 20px;
 }
 
 </style>
