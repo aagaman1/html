@@ -74,26 +74,84 @@
       selector{property_name : value;}
 
     -->
-    <thead>
-      <tr>
-        <th>
+    <table>
+      <thead>
+        <tr>
+          <th>Columu 1</th>
+          <th>Columu 2</th>
+          <th>Columu 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Row 1 Cell 1</td>
+          <td>Row 1 Cell 2</td>
+          <td>Roe 1 Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 2 Cell 2</td>
+          <td>Roe 2 Cell 3</td>
+        </tr>
+        <tr>
+          <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+      </tbody>
+    </table>
 
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>
 
-        </th>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td>total</td>
-        <td></td>
-      </tr>
-    </tfoot>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+          <th colspan="2">Schedule</th>
+          <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+          <th>Begin</th>
+          <th>End</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">08:00 am</td>
+          <td rowspan="2">05:00 pm</td>
+          <td>Introduction to XML</td>
+        </tr>
+        <tr>
+          <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Tuesday</td>
+          <td>08:00 am</td>
+          <td>11:00 am</td>
+          <td rowspan="1.5%">XPath</td>
+        </tr>
+        <tr>
+          <td>11:00 am</td>
+          <td>02:00 pm</td>
+          <td rowspan="">XLS Transformations</td>
+        </tr>
+        <tr>
+          <td>02:00 pm</td>
+          <td>05:00 pm</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Tuesday</td>
+          <td>08:00 am</td>
+          <td>12:00 pm</td>
+          <td>XLS Formating Objects</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <img
+      src="'https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaXRhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60'"
+      class="img-fluid" alt="Responsive image">
+
 
 
     <div class="border">
