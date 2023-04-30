@@ -21,8 +21,11 @@ p {
   text-decoration: wavy;
 }
 
+
 nav ul {
   list-style-type: none;
+  background-color: white;
+  padding: 20px;
 }
 
 nav ul li {
@@ -34,7 +37,6 @@ nav ul li {
 .active {
   text-decoration-color: whitesmoke;
   text-decoration: underline;
-
 }
 
 .box {
@@ -82,7 +84,6 @@ tr th:hover {
 
 tr td:hover {
   background-color: darkcyan;
-  te
 }
 
 .parent {
@@ -99,7 +100,6 @@ tr td:hover {
 }
 
 .content p.red {
-
   padding: 10px;
   text-align: justify;
   font-size: 32px;
@@ -108,6 +108,31 @@ tr td:hover {
 
 .content {
   border: 1px solid white;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+}
+
+.circle {
+  background-color: whitesmoke;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: none;
+  background-color: white;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
 
